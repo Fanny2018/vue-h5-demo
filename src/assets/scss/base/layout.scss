@@ -1,0 +1,38 @@
+.page-warp {
+  height: inherit;
+  min-height: inherit;
+  background-color: #fbfcfb;
+  .content {
+    padding: $spacing-default;
+    background-color: #fbfcfb;
+  }
+  .content-list {
+    margin-top: $spacing-top;
+    padding: $spacing-default 0 $spacing-default;
+    background-color: #fff;
+  }
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: $default-z-index;
+}
+
+.relative {
+  position: relative;
+}
+
+.block {
+  display: block !important;
+}
+
+// 竖线
+.vertical-line {
+  width: 1px;
+  height: 50%;
+  margin-right: $spacing-default;
+  background-color: $border-color;
+}

@@ -1,0 +1,99 @@
+// 搜索框
+.re-mt-search {
+  height: auto;
+  .mint-searchbar {
+    background-color: $border-color;
+    padding: 2px 5px;
+    border-radius: 6px;
+    .mint-searchbar-inner {
+      background-color: $border-color;
+      border-radius: 6px;
+      input {
+        background-color: transparent;
+        &::-ms-input-placeholder {
+          line-height: 18px;
+          height: 18px;
+        }
+        &::-webkit-input-placeholder {
+          line-height: 18px;
+          height: 18px;
+        }
+      }
+    }
+    .mintui-search {
+      font-size: $font-md;
+      margin-right: 8px;
+    }
+    .mint-searchbar-cancel {
+      font-family: "iconfont" !important;
+      font-size: 16px;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+
+      margin-left: 0;
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      position: absolute;
+      right: 6px;
+      background-color: $border-color;
+      padding: 2px;
+      color: $color-gray;
+      &::before {
+        content: "\e63a";
+      }
+    }
+  }
+
+}
+
+// 按钮
+.mint-button {
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.mint-button--default {
+  background-color: transparent;
+  border: 1px solid $border-color;
+}
+
+.mint-button--small {
+  height: 26px;
+  min-width: 60px;
+  padding: 0 .1rem;
+}
+
+.mint-button--danger {
+  background-color: $color-danger;
+}
+
+.mint-button--danger.is-plain {
+  border-width: .5px;
+}
+
+// badge
+.mint-badge {
+  &.is-primary {
+    background-color: $color-info;
+  }
+  &.is-error {
+    background-color: $color-danger;
+  }
+}
+
+// cell
+.mint-cell {
+  min-height: 24px;
+  font-size: $font-md;
+  .mint-cell-wrapper {
+    font-size: $font-md;
+    background-image: none;
+  }
+  .mint-cell-tile {
+    justify-content: left;
+    display: flex;
+    align-items: center;
+  }
+}

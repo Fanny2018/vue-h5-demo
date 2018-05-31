@@ -1,0 +1,32 @@
+// 折叠效果
+.ui-collapse {
+  margin-left: $spacing-top;
+  border-bottom: 1px solid $border-color;
+  > .ui-header {
+    background-color: #fff;
+    cursor: pointer;
+    padding: $spacing-default 0;
+    border: none;
+    > .iconfont {
+      margin-right: 6px;
+      transition: transform .3s;
+      float: left;
+      font-weight: 300;
+      color: $color-gray-light;
+      font-size: 12px;
+    }
+    .header-content {
+      .font-sm {
+        line-height: $line-height-default
+      }
+    }
+    &.active {
+      > .iconfont {
+        transform: rotate(90deg);
+      }
+    }
+  }
+  &:last-child {
+    border-bottom: 0;
+  }
+}

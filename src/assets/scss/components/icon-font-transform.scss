@@ -1,0 +1,12 @@
+@mixin rotate($degree) {
+  &:before {
+    transform: rotate($degree);
+    display: inline-block;
+    position: relative;
+    top: -2px;
+  }
+}
+
+.rotate-9 {
+  @include rotate(90deg);
+}

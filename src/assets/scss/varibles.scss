@@ -1,0 +1,45 @@
+$page-width: 1200px;
+
+$header-height: 50px;
+$footer-height: 40px;
+
+$color-default: #333;
+$color-dark: #666;
+$color-gray: #999;
+$color-gray-light: #aaa;
+$color-gray-lighter: #EEEEEE;
+
+$color-primary: #2895de;
+$color-danger: #FF5B20;
+$color-info: #4D81EE;
+$color-warning: #4D81EE;
+$color-success: #00A755;
+
+$color-muted: #ccc;
+$color-desc: #B4C0CF; // 忽略色
+
+$bg-color: #fff; // 背景颜色
+$border-color: $color-gray-lighter; // 边框颜色
+
+// 字体大小
+$font-base: 12px;
+$font-sm: 11px;
+$font-xs: 10px;
+$font-md: 14px;
+$font-lg: 16px;
+$font-lger: 18px;
+$font-lgest: 20px;
+
+// 间距
+$spacing-default: .2rem; // 默认
+$spacing-top: .3rem; // 区域间距
+
+// 行高
+$line-height-default: 1.8; // 默认
+
+// 栅格化配置
+$grid-columns: 12 !default; //  栅格列数
+$grid-column-padding: 15px !default; //  每列的距离
+
+// z-index 层级
+$default-z-index: 1; //  默认
